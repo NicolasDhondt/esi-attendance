@@ -5,15 +5,15 @@ Method used : XP with pair proramming.
  
 ## To populate the BD
 
-###Check your database 
+### Check your database 
 
 Check your database is created and is the right one in the .env file.
 
-###Migrate all tables 
+### Migrate all tables 
 
 Migrate all tables with the command "php artisan migrate". 
 
-##Add data
+### Add data
 
 Some files can be added in the apps to generate some data.
 You can find them in the ICS_CSV_exemple repository.
