@@ -1,0 +1,37 @@
+.modal-header {
+    align-items: center;
+    padding-left: auto;
+}
+
+.FormModal {
+    text-align: center;
+}
+
+#inputModal {
+    width: 150px;
+    height: 30px;
+    margin-left: 2.5em;
+}
+
+.tdLast {
+    display: flex;
+    align-items: center;
+}
+
+#buttonModalAdd {
+    margin-right: 2em;
+}
+
+#selectsFilters {
+    margin-bottom: 3em;
+}
+
+#selectsFilters select {
+    width: 10em;
+    margin-left: 1em;
+}
+
+#selectsFilters input {
+    width: 6em;
+    margin-left: 2em;
+}
