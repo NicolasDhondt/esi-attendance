@@ -17,7 +17,7 @@ class QrCodeCtrl extends Controller
      */
     public function getQrCodeBySeance(Request $request)
     {
-        $urlLogin = "http://lit-atoll-02597.herokuapp.com/login/". $request->seanceId;
+        $urlLogin = "http://lit-atoll-02597.herokuapp.com/login/" . $request->seanceId;
         return view("/qrcode", compact("urlLogin"));
     }
 
@@ -27,6 +27,6 @@ class QrCodeCtrl extends Controller
     public function returnViewValidation(Request $request)
     {
         $isAuthenticated = $request->isAuthenticated;
-        return view("/isAttended",compact('isAuthenticated'));
+        return view("/isAttended", compact('isAuthenticated'));
     }
 }

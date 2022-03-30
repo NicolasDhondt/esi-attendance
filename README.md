@@ -1,13 +1,19 @@
 # esi-attendance
 
-This project was done by a group of 7 poeple as part of a school project.
+This project was done by a group of 7 poeple as part of a school project.  
 Method used : XP with pair proramming.
 
 ## Generate the vendor repository
 
 Use the following command :
 
--   composer install
+```composer install```
+
+And after : 
+
+```composer update```
+  
+If it's not possible so uncomment the line "extension=gd" in your php.ini files and retry them !
 
 ## To populate the BD
 
@@ -33,10 +39,19 @@ There are two way to add some data.
     You can use this command to generate some data randomly.
     The command : php artisan db:seed
 
-## Brief
+Just start with csv files please and after ics.
+
+### Run
+
+```php artisan serve```
+
+## In brief
 
 To use this app easier, enter the following command :
 
 -   composer install
+-   composer update to check
 -   php artisan migrate
--   php artisan db:seed
+-   php artisan serve
+
+You just need to add some data thought the add files section on the website.
